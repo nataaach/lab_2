@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зоомагазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="products.html">Товари</a></li>
+                <li><a href="services.html">Послуги</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Зоомагазин</h1>
+    <img src="./images/Буч.jpg" alt="Буч" width="500">
+
+    <h2>Пропозиції для вас</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Товар</th>
+            <th>Ціна, грн</th>
+            <th>Купити</th>
+        </tr>
+        <tr>
+            <td>Миска металева</td>
+            <td>149.00</td>
+            <td><button>Купити</button></td>
+        </tr>
+        <tr>
+            <td>Іграшка для собак</td>
+            <td>400.00</td>
+            <td><button>Купити</button></td>
+        </tr>
+        <tr>
+            <td>Вітаміни для собак</td>
+            <td>618.00</td>
+            <td><button>Купити</button></td>
+        </tr>
+    </table>
+
+    <h2>Послуги зоомагазину</h2>
+    <ul>
+        <li>Великий вибір товарів для тварин</li>
+        <li>Консультації ветеринарів</li>
+        <li>Доставка по всій Україні</li>
+    </ul>
+
+    <h2>Як зробити замовлення?</h2>
+    <ol>
+        <li>Виберіть товар з каталогу</li>
+        <li>Додайте товар у кошик</li>
+        <li>Заповніть форму замовлення</li>
+    </ol>
+
+    <h2>Форма замовлення</h2>
+    <form action="/submit-order" method="post">
+        <label for="name">Ім'я:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <label for="address">Адреса доставки:</label><br>
+        <input type="text" id="address" name="address"><br><br>
+        <input type="submit" value="Замовити">
+    </form>
+
+    <footer>
+        <p>Зв'язатися з нами: <a href="tel:+0996789546">+0996789546</a></p>
+        <p>Наш Telegram: <a href="https://t.me/zooshop">t.me/zooshop</a></p>
+    </footer>
+    <h3><a href="description.html">Опис предметної галузі</a></h3>
+
+</body>
+</html>
